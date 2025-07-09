@@ -1,0 +1,192 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header,
+.website-intro {
+    background-color: #1F2937
+}
+
+.website-intro h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+.sub-text,
+.header-links a {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 255px;
+    align-items: center;
+}
+
+.website-intro {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 100px 0px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 12px;
+}
+
+.image-placeholder {
+    align-self: center;
+    background: gray;
+    padding: 100px;
+    color: white;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+.left button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 8px 24px;
+    border: 0px;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+}
+
+.information {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding-bottom: 90px;
+
+}
+
+.information-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    align-self: center;
+    padding: 45px 0px;
+}
+
+.information-content .text {
+    max-width: 150px;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    padding-top: 5px;
+}
+
+.information-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.empty-container {
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    border: 2px solid #3882f6;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    text-align: start;
+    padding: 90px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quote .text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    max-width: 830px;
+
+}
+
+.credits {
+    margin-left: 620px;
+    font-weight: bold;
+}
+
+.signup-container {
+    display: flex;
+    padding: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad-block {
+    display: flex;
+    background-color: #3882f6;
+    padding: 30px 100px;
+    color: white;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.ad-block button {
+    align-self: flex-start;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 5px;
+    align-self: flex-end;
+}
+
+
+.text-1 {
+    font-weight: bold;
+}
+
+.text-2 {
+    font-size: 12px;
+    color: #E5E7EB;
+}
+
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 14px;
+    padding: 28px;
+    text-align: center;
+}
